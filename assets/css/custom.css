@@ -1,5 +1,10 @@
 .container {
-    padding: 30px;
+}
+
+.row {
+    padding-left: 15px;
+    padding-right: 15px;
+
 }
 
 p {
