@@ -1,0 +1,112 @@
+.container-fluid {
+    padding: 25px;
+}
+
+#header-text {
+    background-color: #63a8a4;
+}
+
+#row-1-container {
+    width: 600px;
+    background-color: blue;
+}
+
+#row-1 {
+    background-color: white;
+}
+
+#row-2 {
+    background-image: url("../images/sandpaper/sandpaper.png");
+}
+
+#row-3 {
+    background-color: white;
+}
+
+#col-1 {
+        background-color: pink;
+}
+
+#col-5 {
+            background-color: pink;
+
+}
+
+.list-group {
+    list-style-type: none;
+}
+
+#about {
+}
+
+#portfolio {
+    float: left;
+}
+
+#contact {
+    float: left;
+}
+
+aside {
+    background-color: white;
+    float: left;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    width: 270px;
+    height: 150px;
+}
+
+#about-me-box {
+    float: right;
+    width: 600px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    padding: 25px;
+}
+
+hr {
+    width: 90%;
+}
+
+#social-box {
+	width: 200px;
+	margin: auto;
+}
+
+#profile-pic {
+    height: 137px;
+    width: 95px;
+    float: left;
+    padding-right: 10px;
+}
+
+.socialicon {
+    float: left;
+    width: 33.33%;
+}
+
+#github {
+
+}
+
+
+#footer-text {
+    text-align: center;
+}
+
+
+@media(max-width:767px){
+
+}
+@media(min-width:768px){
+
+}
+@media(min-width:992px){
+
+}
+@media(min-width:1200px){
+	
+}
