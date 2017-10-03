@@ -7,6 +7,13 @@ p {
     line-height: 25px;
 }
 
+h1 {
+}
+
+#nav-col {
+    padding: 0px;
+}
+
 #bio-title {
 }
 
@@ -19,20 +26,18 @@ p {
 }
 
 #col-1 {
-    background-color: pink;
 }
 
 #col-2 {
-    background-color: white;
+    background-color: #ffffff;
 }
 
 #col-3 {
-    background-color: #ffffff;
 
 }
 
 #col-4 {
-    background-color: pink;
+    background-color: #ffffff;
 }
 
 #profile-pic {
@@ -43,12 +48,20 @@ p {
     padding-bottom: 15px
 }
 
+#nav-container {
+    text-align: center;
+}
+
 #nav-list {
     list-style-type: none;
+    display: inline;
+
 }
 
 .navlink {
     float: left;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 #buttons {
@@ -78,5 +91,40 @@ p {
     width: 33.33%;
     color: orange;
     margin-bottom: 25px;
+}
 
+#footer-text {
+    text-align: center;
+}
 
+@media(min-width:1200px){
+    
+}
+
+@media(max-width:992px){
+    
+    
+}
+
+@media(max-width:768px){
+    
+    h1 {
+        text-align: center;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    #nav-list {
+}
+
+@media(max-width: 768px){
+    h1 {
+        text-align: center;
+    }
+
+    h2 {
+        text-align: center;
+    }
+}
