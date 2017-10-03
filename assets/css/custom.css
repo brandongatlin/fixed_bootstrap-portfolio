@@ -1,5 +1,21 @@
+.container {
+    padding: 15px;
+    margin: 15px;
+}
+
+p {
+    line-height: 25px;
+}
+
+#bio-title {
+}
+
+#connect-title {
+    text-align: center;
+}
+
 #row-1 {
-    background-color: ;
+    background-image: url("../images/sandpaper/sandpaper.png");
 }
 
 #col-1 {
@@ -7,14 +23,60 @@
 }
 
 #col-2 {
-    background-color: yellow;
+    background-color: white;
 }
 
 #col-3 {
-    background-color: blue;
+    background-color: #ffffff;
+
 }
 
 #col-4 {
     background-color: pink;
 }
+
+#profile-pic {
+    height: 200px;
+    width: 137px;
+    float: left;
+    padding-right: 15px;
+    padding-bottom: 15px
+}
+
+#nav-list {
+    list-style-type: none;
+}
+
+.navlink {
+    float: left;
+}
+
+#buttons {
+    margin: auto;
+    margin-top: 30px;
+    padding-left: 25px;
+}
+
+#github {
+    float: left;
+    width: 33.33%;
+    color: black;
+    margin-bottom: 25px;
+
+}
+
+#linked {
+    float: left;
+    width: 33.33%;
+    color: red;
+    margin-bottom: 25px;
+
+}
+
+#stack {
+    float: left;
+    width: 33.33%;
+    color: orange;
+    margin-bottom: 25px;
+
 
