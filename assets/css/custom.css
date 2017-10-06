@@ -9,9 +9,22 @@
 
 p {
     line-height: 25px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1 {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    color: #63a8a4;
+    font-family: 'Roboto', sans-serif;
+}
+
+#header-col {
+    background-color: #63a8a4;
 }
 
 #nav-col {
@@ -54,6 +67,7 @@ h1 {
 
 #nav-container {
     text-align: center;
+    font-size: 10px;
 }
 
 #nav-list {
@@ -69,14 +83,16 @@ h1 {
 }
 
 #buttons {
-    margin: auto;
+width: 100%;
     margin-top: 30px;
-    padding-left: 25px;
+}
+
+.socialicon {
+    width: 33.33%;
 }
 
 #github {
     float: left;
-    width: 33.33%;
     color: black;
     margin-bottom: 25px;
 
@@ -84,7 +100,6 @@ h1 {
 
 #linked {
     float: left;
-    width: 33.33%;
     color: red;
     margin-bottom: 25px;
 
@@ -92,13 +107,16 @@ h1 {
 
 #stack {
     float: left;
-    width: 33.33%;
     color: orange;
     margin-bottom: 25px;
 }
 
 #footer-text {
     text-align: center;
+}
+
+.hr {
+    color: #7B7B7C;
 }
 
 @media(min-width:1200px){
